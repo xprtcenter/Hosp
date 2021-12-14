@@ -25,6 +25,9 @@ git remote add origin https://github.com/xprtcenter/Hosp.git
 git push -u origin main
 
 
+//for website updation ////
+
+
 
 
 ![alt text](https://i.ibb.co/1YN7SJ6/Screen-Shot-2019-07-01-at-2-02-40-AM.png "image to fork button")
