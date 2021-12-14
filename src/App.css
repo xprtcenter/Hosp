@@ -1,0 +1,44 @@
+:root {
+	--primary-color: rgb(251, 197, 49);
+	--secondary-color: black;
+	--primary-color-m: rgb(248, 242, 226);
+	--header-background-color: rgb(243, 240, 236);
+	--border-color-header: GRAY;
+	--font-primary-color: black;
+	--font-secondary-color: white;
+	--left-side-menu-block: white;
+	--after-hover-light-color: white;
+	--after-hover-dark-color: black;
+}
+
+body {
+	font-family: "Open Sans Condensed";
+}
+.main-container {
+	display: flex;
+	flex-direction: column;
+}
+.page-container {
+	padding-top: 100px;
+	margin-bottom: 35px;
+	flex: 1;
+}
+
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.first-div {
+	display: flow-root;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	z-index: 4;
+}

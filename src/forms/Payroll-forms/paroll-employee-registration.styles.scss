@@ -1,0 +1,113 @@
+.employee-registration-form {
+	width: 100%;
+	max-height: 25em;
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		.bloc-tabs {
+			display: flex;
+			background: #ffffff;
+
+			.tabs {
+				padding: 5px;
+				text-align: center;
+				width: 100%;
+				background: rgb(0, 0, 0);
+				cursor: pointer;
+				border-bottom: 5px solid rgba(240, 240, 240, 0.555);
+				color: white;
+
+				outline: none;
+			}
+			.tabs:not(:last-child) {
+				border-right: 2px solid rgb(250, 250, 250);
+			}
+
+			.active-tabs {
+				background: rgb(255, 255, 255);
+				border-bottom: 1px solid transparent;
+				border-left: 1px solid rgb(0, 0, 0);
+				border-right: 1px solid rgb(0, 0, 0);
+				color: black;
+			}
+		}
+		.content-tabs {
+			flex: 1;
+
+			.content {
+				background: rgb(255, 255, 255);
+				padding: 20px;
+				display: none;
+			}
+
+			.active-content {
+				display: block;
+			}
+			.form-container {
+				display: flex;
+				flex-direction: column;
+				flex-wrap: wrap;
+				margin: 0 15px;
+				max-height: 25em;
+				width: 100%;
+				background-color: rgb(255, 255, 255);
+
+				.form-dropdown {
+					background: none;
+					background-color: rgba(255, 255, 255, 0);
+					color: rgb(0, 0, 0);
+					font-size: 18px;
+					border-radius: 15px;
+					width: 400px;
+					margin: 10px 0;
+					display: block;
+				}
+			}
+
+			.image-form-page {
+				display: flex;
+				flex-direction: row;
+
+				.image-container {
+					width: 200px;
+					height: 300px;
+					display: flex;
+					flex-direction: column;
+
+					input {
+						background-color: chocolate;
+						color: cornsilk;
+					}
+					.imgPreview {
+						align-content: center;
+						img {
+							margin-left: auto;
+							margin-right: auto;
+							display: block;
+							width: 150px;
+							height: 150px;
+							object-fit: cover;
+						}
+
+						background-color: rgb(255, 255, 255);
+					}
+				}
+			}
+		}
+
+		.button-upload {
+			align-self: center;
+			padding: 5px;
+			color: rgb(0, 0, 0);
+			width: 100%;
+			margin: 5px;
+			border-radius: 20px;
+			text-align: center;
+			align-items: center;
+			background-color: rgb(251, 197, 49);
+			cursor: pointer;
+			font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+		}
+	}
+}

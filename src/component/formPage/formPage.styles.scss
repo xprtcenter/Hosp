@@ -1,0 +1,38 @@
+.form-page {
+	display: flex;
+	width: 100%;
+}
+.leftside-menu-block {
+	background-color: var(--left-side-menu-block);
+	position: fixed;
+	width: 150px;
+	margin-top: 5px;
+
+	left: 0;
+	height: 100%;
+
+	z-index: 4;
+	display: flex;
+	flex-direction: column;
+}
+
+.rightside-main-section {
+	margin-left: 150px;
+	width: 100%;
+	display: flex;
+
+	.form-main-container {
+		padding: 0 10px 0;
+		width: 100%;
+		h2.form-title {
+			text-align: center;
+		}
+		span.form-subtitle {
+			text-align: center;
+		}
+		.group {
+			width: 400px;
+			margin: 0;
+		}
+	}
+}
